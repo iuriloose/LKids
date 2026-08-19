@@ -1,0 +1,11 @@
+{
+  "volume": 0.3,
+  "duracao_animais": 5.0,
+  "tempo_modo_atracao": 6.0,
+  "maximo_galinhas": 5,
+  "maximo_ovelhas": 5,
+  "maximo_cavalos": 3,
+  "maximo_passaros": 6,
+  "maximo_peixes": 7,
+  "surpresa_a_cada": 10
+}
