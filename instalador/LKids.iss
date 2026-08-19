@@ -24,7 +24,13 @@ Name: "portuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 [Files]
 Source: "..\dist\LKids\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
+[Tasks]
+Name: "desktopicon"; Description: "Criar atalho na área de trabalho"; GroupDescription: "Atalhos adicionais:"
+
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+
+[Run]
+Filename: "{app}\{#MyAppExeName}"; Description: "Abrir LKids"; Flags: nowait postinstall skipifsilent
 
