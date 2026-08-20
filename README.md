@@ -2,6 +2,12 @@
 
 LKids é uma brincadeira interativa em tela cheia com tema de fazendinha. Clique nas áreas da cena ou use o teclado e o controle para soltar animais, pássaros e peixes, com sons e pequenas animações.
 
+![Cenário interativo do LKids com animais na fazendinha](docs/lkids-fazendinha.png)
+
+## Conheça a fazendinha
+
+Uma brincadeira visual para explorar: clique no cenário, solte animais e descubra sons e pequenas animações.
+
 ## Versão 1.0.1
 
 Edição Fazendinha com identidade visual padronizada: o aplicativo, os atalhos e o instalador usam o ícone oficial do LKids.
