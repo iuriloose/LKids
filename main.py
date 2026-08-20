@@ -3,7 +3,7 @@ import os
 
 import pygame
 from PySide6.QtCore import Qt, QTimer
-from PySide6.QtGui import QPainter
+from PySide6.QtGui import QIcon, QPainter
 from PySide6.QtWidgets import QApplication, QWidget
 
 from core.fazenda import CenaFazenda
@@ -12,7 +12,8 @@ from core.fazenda import CenaFazenda
 class LKids(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("LKids")
+        self.setWindowTitle("LKids 1.0.1")
+        self.setWindowIcon(QIcon(os.path.join(os.path.dirname(__file__), "assets", "app-icon.ico")))
         self.saida_permitida = False
         self.base = os.path.dirname(__file__)
         self.config = self._carregar_config()
