@@ -8,11 +8,11 @@ LKids é uma brincadeira interativa em tela cheia com tema de fazendinha. Clique
 
 Uma brincadeira visual para explorar: clique no cenário, solte animais e descubra sons e pequenas animações.
 
-## Versão 1.0.1
+## Download
 
-Edição Fazendinha com identidade visual padronizada: o aplicativo, os atalhos e o instalador usam o ícone oficial do LKids.
+[Baixar a versão mais recente do LKids](https://github.com/iuriloose/LKids/releases/latest)
 
-A versão 1.0.0 continua disponível no histórico de lançamentos.
+As versões anteriores continuam disponíveis no histórico de Releases.
 
 ## Como executar pelo código
 
